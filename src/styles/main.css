@@ -3,6 +3,7 @@
 }
 
 .content {
+  max-width: calc(100% - 212px);
   position: absolute;
   top: 0;
   right: 0;

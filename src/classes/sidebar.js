@@ -17,8 +17,8 @@ export class Sidebar {
   get template() {
     // return '<h1>template</h1>'
     return [
-      block('text'),
       block('title'),
+      block('text'),
     ].join('')
   }
 
